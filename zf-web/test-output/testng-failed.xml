@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [xmlsuite]">
+  <test thread-count="5" name="Single Gateway(failed)">
+    <classes>
+      <class name="zf.test.ZFUserHomeTest">
+        <methods>
+          <include name="Tc03DeleteUser"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- zf.test.ZFUserHomeTest -->
+    </classes>
+  </test> <!-- Single Gateway(failed) -->
+</suite> <!-- Failed suite [xmlsuite] -->

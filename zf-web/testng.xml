@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="xmlsuite" verbose="1" >
+
+
+  <test name="Single Gateway" >
+    <classes>
+    	<class name="framework.Hooks" />
+    	<class name="zf.test.ZFAddSingleGatewayTest" />
+       	<class name="zf.test.ZFADDMultipleGatewayTest" />
+       		<class name="zf.test.ZFAddClientTest" />
+       			<class name="zf.test.ZFUserHomeTest" />
+    </classes>
+  </test>
+</suite>
+

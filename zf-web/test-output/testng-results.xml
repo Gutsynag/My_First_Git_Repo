@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="7" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - unknown error: Element <button class="button button-primary delete-button" ng-click="$ctrl.deleteUser()" type="button" ng-disabled="$ctrl.buttonsDisabled">...</button> is not clickable at point (1084, 249). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PCCH-DIVYAG', ip: '10.51.1.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\divyag\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55097}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 474935f5d6a528e13081664484ab72a2]]>
+    </line>
+  </reporter-output>
+  <suite name="xmlsuite" duration-ms="849164" started-at="2019-02-28T11:48:34Z" finished-at="2019-02-28T12:02:43Z">
+    <groups>
+    </groups>
+    <test name="Single Gateway" duration-ms="849164" started-at="2019-02-28T11:48:34Z" finished-at="2019-02-28T12:02:43Z">
+      <class name="zf.test.ZFADDMultipleGatewayTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="beforeMethod" is-config="true" duration-ms="23586" started-at="2019-02-28T11:51:02Z" finished-at="2019-02-28T11:51:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFADDMultipleGatewayTest.Tc01AddMultipleGatewayNew()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Tc01AddMultipleGatewayNew()[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="Tc01AddMultipleGatewayNew" duration-ms="65455" started-at="2019-02-28T11:51:25Z" finished-at="2019-02-28T11:52:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01AddMultipleGatewayNew -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="afterMethod" is-config="true" duration-ms="720" started-at="2019-02-28T11:52:31Z" finished-at="2019-02-28T11:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc01AddMultipleGatewayNew status=SUCCESS method=ZFADDMultipleGatewayTest.Tc01AddMultipleGatewayNew()[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFADDMultipleGatewayTest.Tc01AddMultipleGatewayNew()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="beforeMethod" is-config="true" duration-ms="27632" started-at="2019-02-28T11:52:32Z" finished-at="2019-02-28T11:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFADDMultipleGatewayTest.Tc02AddMultipleGatewayExisting()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Tc02AddMultipleGatewayExisting()[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="Tc02AddMultipleGatewayExisting" duration-ms="68815" started-at="2019-02-28T11:52:59Z" finished-at="2019-02-28T11:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02AddMultipleGatewayExisting -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce]" name="afterMethod" is-config="true" duration-ms="758" started-at="2019-02-28T11:54:08Z" finished-at="2019-02-28T11:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc02AddMultipleGatewayExisting status=SUCCESS method=ZFADDMultipleGatewayTest.Tc02AddMultipleGatewayExisting()[pri:0, instance:zf.test.ZFADDMultipleGatewayTest@48a242ce] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFADDMultipleGatewayTest.Tc02AddMultipleGatewayExisting()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zf.test.ZFADDMultipleGatewayTest -->
+      <class name="zf.test.ZFAddClientTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFAddClientTest@1e4a7dd4]" name="beforeMethod" is-config="true" duration-ms="30743" started-at="2019-02-28T11:54:09Z" finished-at="2019-02-28T11:54:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFAddClientTest.AddSubClient() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="AddSubClient()[pri:0, instance:zf.test.ZFAddClientTest@1e4a7dd4]" name="AddSubClient" duration-ms="138324" started-at="2019-02-28T11:54:40Z" finished-at="2019-02-28T11:56:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddSubClient -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFAddClientTest@1e4a7dd4]" name="afterMethod" is-config="true" duration-ms="701" started-at="2019-02-28T11:56:58Z" finished-at="2019-02-28T11:56:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddSubClient status=SUCCESS method=ZFAddClientTest.AddSubClient()[pri:0, instance:zf.test.ZFAddClientTest@1e4a7dd4] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFAddClientTest.AddSubClient() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zf.test.ZFAddClientTest -->
+      <class name="zf.test.ZFAddSingleGatewayTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFAddSingleGatewayTest@1d7acb34]" name="beforeMethod" is-config="true" duration-ms="22726" started-at="2019-02-28T11:48:34Z" finished-at="2019-02-28T11:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFAddSingleGatewayTest.Tc01addSingleGateway()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Tc01addSingleGateway()[pri:0, instance:zf.test.ZFAddSingleGatewayTest@1d7acb34]" name="Tc01addSingleGateway" duration-ms="124599" started-at="2019-02-28T11:48:57Z" finished-at="2019-02-28T11:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01addSingleGateway -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFAddSingleGatewayTest@1d7acb34]" name="afterMethod" is-config="true" duration-ms="674" started-at="2019-02-28T11:51:01Z" finished-at="2019-02-28T11:51:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc01addSingleGateway status=SUCCESS method=ZFAddSingleGatewayTest.Tc01addSingleGateway()[pri:0, instance:zf.test.ZFAddSingleGatewayTest@1d7acb34] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFAddSingleGatewayTest.Tc01addSingleGateway()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zf.test.ZFAddSingleGatewayTest -->
+      <class name="framework.Hooks">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:framework.Hooks@5f71c76a]" name="beforeTest" is-config="true" duration-ms="250" started-at="2019-02-28T11:48:34Z" finished-at="2019-02-28T11:48:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:framework.Hooks@5f71c76a]" name="afterTest" is-config="true" duration-ms="423" started-at="2019-02-28T12:02:42Z" finished-at="2019-02-28T12:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- framework.Hooks -->
+      <class name="zf.test.ZFUserHomeTest">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="25621" started-at="2019-02-28T11:56:59Z" finished-at="2019-02-28T11:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc01addUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Tc01addUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="Tc01addUser" duration-ms="115407" started-at="2019-02-28T11:57:24Z" finished-at="2019-02-28T11:59:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc01addUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="afterMethod" is-config="true" duration-ms="691" started-at="2019-02-28T11:59:20Z" finished-at="2019-02-28T11:59:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc01addUser status=SUCCESS method=ZFUserHomeTest.Tc01addUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc01addUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="21226" started-at="2019-02-28T11:59:20Z" finished-at="2019-02-28T11:59:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc02editUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Tc02editUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="Tc02editUser" duration-ms="88106" started-at="2019-02-28T11:59:42Z" finished-at="2019-02-28T12:01:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tc02editUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="afterMethod" is-config="true" duration-ms="680" started-at="2019-02-28T12:01:10Z" finished-at="2019-02-28T12:01:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc02editUser status=SUCCESS method=ZFUserHomeTest.Tc02editUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc02editUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="beforeMethod" is-config="true" duration-ms="22051" started-at="2019-02-28T12:01:10Z" finished-at="2019-02-28T12:01:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc03DeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="Tc03DeleteUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="Tc03DeleteUser" duration-ms="68887" started-at="2019-02-28T12:01:32Z" finished-at="2019-02-28T12:02:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - Delete user]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - Delete user
+at org.testng.Assert.fail(Assert.java:96)
+at framework.ElementManager.elementCatch(ElementManager.java:678)
+at framework.ElementManager.elementClick(ElementManager.java:61)
+at zf.pages.ZFUserHomePage.deleteUser(ZFUserHomePage.java:87)
+at zf.test.ZFUserHomeTest.Tc03DeleteUser(ZFUserHomeTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - unknown error: Element <button class="button button-primary delete-button" ng-click="$ctrl.deleteUser()" type="button" ng-disabled="$ctrl.buttonsDisabled">...</button> is not clickable at point (1084, 249). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PCCH-DIVYAG', ip: '10.51.1.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\divyag\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55097}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 474935f5d6a528e13081664484ab72a2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Tc03DeleteUser -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0]" name="afterMethod" is-config="true" duration-ms="1059" started-at="2019-02-28T12:02:41Z" finished-at="2019-02-28T12:02:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Tc03DeleteUser status=FAILURE method=ZFUserHomeTest.Tc03DeleteUser()[pri:0, instance:zf.test.ZFUserHomeTest@4f51b3e0] output=TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - unknown error: Element <button class="button button-primary delete-button" ng-click="$ctrl.deleteUser()" type="button" ng-disabled="$ctrl.buttonsDisabled">...</button> is not clickable at point (1084, 249). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PCCH-DIVYAG', ip: '10.51.1.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\divyag\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55097}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 474935f5d6a528e13081664484ab72a2]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void zf.test.ZFUserHomeTest.Tc03DeleteUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- zf.test.ZFUserHomeTest -->
+    </test> <!-- Single Gateway -->
+  </suite> <!-- xmlsuite -->
+</testng-results>

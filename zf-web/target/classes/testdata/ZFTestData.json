@@ -1,0 +1,101 @@
+[
+	{
+		"Tc01addUser": {
+			"Name": "Karuna",
+			"Email": "karu.testing@gmail.com",
+			"SureName": "karu",
+			"Role": "Administrator",
+			"CancelText": "You have edited data on this page, do you want to discard them?",
+			"ToasterMsgSuccess": "Success",
+			"ToasterMsgSuccessCreated":"was created successfully"
+			
+					}
+	},
+	
+	{
+		"Tc02EditUser": {
+			"Name": "Karuna",
+			"EditName": "Karuna111",
+			"EditEmail": "karu111.testing@gmail.com",
+			"EditSureName": "karu11",
+			"EditRole": "Administrator111",
+			"CancelText": "You have edited data on this page, do you want to discard them?",
+			"ToasterMsgSuccess": "Success",
+			"ToasterMsgSuccesUpdated":"was updated successfully"
+		}
+	},
+	
+	{
+		"Tc03DeleteUser": {
+			"Name": "Karuna111",
+			"Noresultvalue": "No results found"
+		}
+	},
+	
+	{
+		"AddSingleGateway": {
+			"GatewayName": "test1",
+			"GatewayType": "Actia",
+			"Model": "ECU-VK300",
+			"MACID": "test1",
+			"SerialNumber": "test1",
+			"SIMNumber": "test1",
+			"CustomerName": "test1",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "test1",
+			"Operator": "test1",
+			"Description": "test1",
+			"MetaDatakey": "test1",
+			"MetaDatavalue": "test1",
+			"UploadCertificate": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev10_cert.pem",
+			"ToasterMessageFailed": "Failed"
+		}
+	},
+	{
+		"AddMultipleGatewayNew": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Test_Provisioning_GatewayDetails_New.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"AddMultipleGatewayExisting": {
+			"SelectEnrollmentGroup": "test123",
+			"CAfilename": "devaug29root",
+			"UploadGatewayDetails": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Bulk_Provisioning_GatewayDetails_Existing.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	
+	{
+		"AssignAdministrator": {
+			"email": "venkata@test.com",
+			"email1": "venkata@mc.com"
+		}
+	},
+	{
+		"Fleet": {
+			"fleetname": "Sam",
+			"infotext": "Gupta"
+		}
+			
+	},
+	{
+		"ClientDetails": {
+			"clientName": "venkata",
+			"email": "venkata@test.com",
+			"street": "bridge street",
+			"streetNumber": "2512",
+			"telephone": "12345678912345",
+			"postCode": "9876",
+			"webSite": "howtodo.com",
+			"country": "USA",
+			"fax": "12345678978999",
+			"ToasterMsg": "Unauthorized user"
+		}
+	}
+]

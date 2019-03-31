@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Single Gateway</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Single Gateway</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 28 17:18:34 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>849 seconds (849164 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='zf.test.ZFUserHomeTest.Tc03DeleteUser()'><b>Tc03DeleteUser</b><br>Test class: zf.test.ZFUserHomeTest<br/>
+<a href="#Output-1689309690" onClick='toggleBox("Output-1689309690", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1689309690" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1689309690">
+TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - unknown error: Element <button class="button button-primary delete-button" ng-click="$ctrl.deleteUser()" type="button" ng-disabled="$ctrl.buttonsDisabled">...</button> is not clickable at point (1084, 249). Other element would receive the click: <div uib-modal-window="modal-window" class="modal fade ng-scope ng-isolate-scope in" role="dialog" size="md" index="0" animate="animate" ng-style="{'z-index': 1050 + $$topModalIndex*10, display: 'block'}" tabindex="-1" uib-modal-animation-class="fade" modal-in-class="in" modal-animation="true" style="z-index: 1050; display: block;">...</div>
+  (Session info: chrome=72.0.3626.109)
+  (Driver info: chromedriver=2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PCCH-DIVYAG', ip: '10.51.1.32', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.46.628402 (536cd7adbad73a..., userDataDir: C:\Users\divyag\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55097}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), rotatable: false, setWindowRect: true, strictFileInteractability: false, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 72.0.3626.109, webStorageEnabled: true}
+Session ID: 474935f5d6a528e13081664484ab72a2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - Delete user
+	at framework.ElementManager.elementCatch(ElementManager.java:678)
+	at framework.ElementManager.elementClick(ElementManager.java:61)
+	at zf.pages.ZFUserHomePage.deleteUser(ZFUserHomePage.java:87)
+	at zf.test.ZFUserHomeTest.Tc03DeleteUser(ZFUserHomeTest.java:37)
+... Removed 26 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1689309690", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1689309690'><pre>java.lang.AssertionError: TIMEOUT EXCEPTION element does not exist after waiting 90 seconds - Delete user
+	at org.testng.Assert.fail(Assert.java:96)
+	at framework.ElementManager.elementCatch(ElementManager.java:678)
+	at framework.ElementManager.elementClick(ElementManager.java:61)
+	at zf.pages.ZFUserHomePage.deleteUser(ZFUserHomePage.java:87)
+	at zf.test.ZFUserHomeTest.Tc03DeleteUser(ZFUserHomeTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>68</td>
+<td>zf.test.ZFUserHomeTest@4f51b3e0</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='zf.test.ZFAddClientTest.AddSubClient()'><b>AddSubClient</b><br>Test class: zf.test.ZFAddClientTest</td>
+<td></td>
+<td>138</td>
+<td>zf.test.ZFAddClientTest@1e4a7dd4</td></tr>
+<tr>
+<td title='zf.test.ZFADDMultipleGatewayTest.Tc01AddMultipleGatewayNew()'><b>Tc01AddMultipleGatewayNew</b><br>Test class: zf.test.ZFADDMultipleGatewayTest</td>
+<td></td>
+<td>65</td>
+<td>zf.test.ZFADDMultipleGatewayTest@48a242ce</td></tr>
+<tr>
+<td title='zf.test.ZFAddSingleGatewayTest.Tc01addSingleGateway()'><b>Tc01addSingleGateway</b><br>Test class: zf.test.ZFAddSingleGatewayTest</td>
+<td></td>
+<td>124</td>
+<td>zf.test.ZFAddSingleGatewayTest@1d7acb34</td></tr>
+<tr>
+<td title='zf.test.ZFUserHomeTest.Tc01addUser()'><b>Tc01addUser</b><br>Test class: zf.test.ZFUserHomeTest</td>
+<td></td>
+<td>115</td>
+<td>zf.test.ZFUserHomeTest@4f51b3e0</td></tr>
+<tr>
+<td title='zf.test.ZFADDMultipleGatewayTest.Tc02AddMultipleGatewayExisting()'><b>Tc02AddMultipleGatewayExisting</b><br>Test class: zf.test.ZFADDMultipleGatewayTest</td>
+<td></td>
+<td>68</td>
+<td>zf.test.ZFADDMultipleGatewayTest@48a242ce</td></tr>
+<tr>
+<td title='zf.test.ZFUserHomeTest.Tc02editUser()'><b>Tc02editUser</b><br>Test class: zf.test.ZFUserHomeTest</td>
+<td></td>
+<td>88</td>
+<td>zf.test.ZFUserHomeTest@4f51b3e0</td></tr>
+</table><p>
+</body>
+</html>

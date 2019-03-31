@@ -1,0 +1,40 @@
+[
+	{
+		"AddSingleGateway": {
+			"GatewayName": "test1",
+			"GatewayType": "Actia",
+			"Model": "ECU-VK300",
+			"MACID": "test1",
+			"SerialNumber": "test1",
+			"SIMNumber": "test1",
+			"CustomerName": "test1",
+			"CustomerCountry": "India",
+			"CustomerArea": "Delhi",
+			"BusinessUnit": "test1",
+			"Operator": "test1",
+			"Description": "test1",
+			"MetaDatakey": "test1",
+			"MetaDatavalue": "test1",
+			"UploadCertificate": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev10_cert.pem",
+			"ToasterMessageFailed": "Failed"
+		}
+	},
+	{
+		"AddMultipleGatewayNew": {
+			"CreateEnrollmentGroup": "Group1",
+			"UploadCA": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\Certificates\\Single\\devtestdev7_cert.pem",
+			"UploadGatewayDeatils": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Test_Provisioning_GatewayDetails_New.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	},
+	{
+		"AddMultipleGatewayExisting": {
+			"SelectEnrollmentGroup": "test123",
+			"CAfilename": "devaug29root",
+			"UploadGatewayDetails": "E:\\ZFPROJECT\\LatestFramework\\zf-automation\\zf-web\\src\\main\\resources\\testdata\\MultipleGatewaySpreadsheets\\Bulk_Provisioning_GatewayDetails_Existing.xlsx",
+			"ToasterMessageFailed": "Failed",
+			"ToasterMessageSuccess": "SUCCESS"
+		}
+	}
+]
